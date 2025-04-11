@@ -29,6 +29,7 @@ const Home = () => {
           <div className='post' key={post.id}>
             <img className="img"
             src={post.img} alt="not loading" />
+            
             <div className='content'>
               <Link className='link' to={`/post/${post.id}`}>
               <h1>{post.title}</h1>
